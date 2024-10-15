@@ -1,7 +1,10 @@
 start
-	struktura user:
-		hasło
+	struktura User:
 		login
+		hasło
 		rola
 	inicjalizuj users[3]
-	users[0] = 
+	users[0] = User("Jan Kowalski", "1234", 1)
+	users[1] = User("Piotr Nowak", "hasło", 0)
+	users[2] = User("Marcin Najman", "masło", 0)
+koniec
