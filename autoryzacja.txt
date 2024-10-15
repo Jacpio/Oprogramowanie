@@ -1,0 +1,7 @@
+start
+	struktura user:
+		hasło
+		login
+		rola
+	inicjalizuj users[3]
+	users[0] = 
