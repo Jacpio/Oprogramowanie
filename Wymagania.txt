@@ -1,0 +1,30 @@
+Wymagania funkcjonalne:
+Rejestracja użytkowników – Nauczyciele oraz uczniowie muszą być w stanie zarejestrować się w systemie. Musi ona obejmować, dane osobowe (imię, nazwisko, e-mail i hasło) oraz automatycznie przypisywać rolę w zależności od wybranego konta.
+
+Logowanie – Nauczyciele oraz uczniowie muszę być w stanie się zalogować do aplikacji, by uzyskać dostęp do swojego konta. Obejmuje ona: możliwość logowania za pomocą e-mailu, hasła (również jego resetowania), 
+weryfikacji ról wybranych przez użytkowników.
+
+Wstawianie ocen – Nauczyciele wstawiając ocenę odpowiedniemu uczniowi muszą być w stanie wybrać odpowiednią w zakresie od 1 do 6, a także dodać komentarz z czego ona była oraz jaką ma wagę. 
+Oprócz tego muszą mieć umożliwiane edytowanie takowych ocen oraz – jak zajdzie taka potrzeba – usuwanie ich.
+
+Wyświetlanie ocen – Uczniowie muszą widzieć swoje oceny. Obejmuje to: wyświetlanie ocen dla każdego przedmiotu (odpowiednio posegregowane), 
+możliwość sortowania tychże ocen, a także wyświetlanie komentarzy oraz daty wstawienia.
+
+Generowanie raportów i statystyk – Operuje to na generowaniu odpowiednich wiadomości dotyczących postępów uczniów, wyświetlając ich średnią, pokazując średnie wyniki klasy, 
+analizowanie postępów uczniów, a także wyświetlanie tego wszystkiego w formie jednego spójnego dokumentu z możliwością eksportu do formatu PDF lub Excel.
+
+
+Wymaganie niefunkcjonalne:
+Bezpieczeństwo – Aplikacja musi zapewniać pewien poziom ochrony danych uczniów, nauczycieli, a także ich ocen. Obejmuje to: zabezpieczenia przed atakami typu SQL Injection, 
+Cross-Site Scripting oraz Cross-Site Request Forgery; Szyfrowanie przechowywanych haseł użytkowników; Ograniczanie dostępu do aplikacji zgodnie z wybraną rolą uczeń/nauczyciel.
+
+Wydajność – System oceniania musi działać sprawnie, nawet jeśli liczba użytkowników przekroczy określony limit. 
+Obejmuje to: zoptymalizowanie zapytań do baz danych.
+
+Łatwość w obsłudze – Interfejs użytkownika powinien być prosty, intuicyjny z minimalną ilością kliknięć do wykonania podstawowych operacji, dostosowany do urządzeń mobilnych, 
+a także winien ułatwiać nawigację za pomocą paneli „menu” oraz filtrów wyszukiwania.
+
+Dostępność – Aplikacja nie powinna mieć wielu przerw technicznych, a także powinna być aktywna 24/7. 
+W razie ewentualnych problemów powinna mieć okresowo wykonywaną kopie zapasową danych. 
+
+Zgodność z prawem – Aplikacja musi przestrzegać przepisów dotyczących ochrony danych osobowych (RODO) i przechowywać je zgodnie z regulacjami, za ówczesną zgodą użytkowników.

@@ -1,0 +1,4 @@
+Nazwa aplikacji: Grada
+Cel projektu: Aplikacja została stworzona w celu ułatwienia dostępu do informacji o ocenach dla uczniów i nauczycieli. Dzięki niej w zapomnienie odejdą dzienniki papierowe, a także problemy z nimi związane.
+Zakres funkcjonalny: Zakres działań naszej aplikacji obejmować będzie między innymi: rejestrowanie, logowanie, wpisywanie oraz edytowanie ocen przez nauczyciela, przygotowywanie automatycznych raportów i wykresów, 
+a także wyświetlanie wszystkiego uczniowi.
