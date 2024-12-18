@@ -1,2 +1,2 @@
 # Oprogramowanie
-Coś na oprogramowanie
+Projekt na oprogramowanie dotyczący oceniania
